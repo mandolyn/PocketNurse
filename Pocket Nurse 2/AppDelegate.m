@@ -8,20 +8,23 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "SwitchViewController.h"
 
 @implementation AppDelegate
+
+@synthesize window;
+@synthesize switchViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
-    }
-    self.window.rootViewController = self.viewController;
+//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+//        self.switchViewController  = [[SwitchViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
+//    } else {
+//        self.switchViewController = [[SwitchViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
+//    }
+    self.window.rootViewController = self.switchViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

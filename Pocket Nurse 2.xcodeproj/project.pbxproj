@@ -24,6 +24,16 @@
 		75F6145D177F92900065DA29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F61435177F92900065DA29 /* Foundation.framework */; };
 		75F61465177F92900065DA29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75F61463177F92900065DA29 /* InfoPlist.strings */; };
 		75F61468177F92900065DA29 /* Pocket_Nurse_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61467177F92900065DA29 /* Pocket_Nurse_2Tests.m */; };
+		75F61477177F98F30065DA29 /* Background Man.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F61473177F98F30065DA29 /* Background Man.png */; };
+		75F61479177F98F30065DA29 /* iPad Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F61475177F98F30065DA29 /* iPad Title.png */; };
+		75F6147A177F98F30065DA29 /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F61476177F98F30065DA29 /* Title.png */; };
+		75F6147E177F9FAE0065DA29 /* lg_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F6147D177F9FAE0065DA29 /* lg_yes.png */; };
+		75F6148217808B310065DA29 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F6148117808B310065DA29 /* icon.png */; };
+		75F61484178098B70065DA29 /* Robin Egg Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F61483178098B70065DA29 /* Robin Egg Background.png */; };
+		75F614881780A2E10065DA29 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F614861780A2E10065DA29 /* SwitchViewController.m */; };
+		75F614891780A2E10065DA29 /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F614871780A2E10065DA29 /* SwitchViewController.xib */; };
+		75F6148D1780A2FC0065DA29 /* HeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6148B1780A2FC0065DA29 /* HeadViewController.m */; };
+		75F6148E1780A2FC0065DA29 /* HeadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F6148C1780A2FC0065DA29 /* HeadViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +70,18 @@
 		75F61464177F92900065DA29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75F61466177F92900065DA29 /* Pocket_Nurse_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pocket_Nurse_2Tests.h; sourceTree = "<group>"; };
 		75F61467177F92900065DA29 /* Pocket_Nurse_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_Nurse_2Tests.m; sourceTree = "<group>"; };
+		75F61473177F98F30065DA29 /* Background Man.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Background Man.png"; path = "../../../../Pictures/Images/Background Man.png"; sourceTree = "<group>"; };
+		75F61475177F98F30065DA29 /* iPad Title.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iPad Title.png"; path = "../../../../Pictures/Images/iPad Title.png"; sourceTree = "<group>"; };
+		75F61476177F98F30065DA29 /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = Title.png; path = ../../../../Pictures/Images/Title.png; sourceTree = "<group>"; };
+		75F6147D177F9FAE0065DA29 /* lg_yes.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = lg_yes.png; path = ../../../../Pictures/Images/lg_yes.png; sourceTree = "<group>"; };
+		75F6148117808B310065DA29 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../Pictures/Images/icon.png; sourceTree = "<group>"; };
+		75F61483178098B70065DA29 /* Robin Egg Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Robin Egg Background.png"; path = "../../../../Pictures/Images/Robin Egg Background.png"; sourceTree = "<group>"; };
+		75F614851780A2E10065DA29 /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		75F614861780A2E10065DA29 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		75F614871780A2E10065DA29 /* SwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchViewController.xib; sourceTree = "<group>"; };
+		75F6148A1780A2FC0065DA29 /* HeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadViewController.h; sourceTree = "<group>"; };
+		75F6148B1780A2FC0065DA29 /* HeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadViewController.m; sourceTree = "<group>"; };
+		75F6148C1780A2FC0065DA29 /* HeadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +147,12 @@
 				75F6144C177F92900065DA29 /* ViewController.m */,
 				75F6144E177F92900065DA29 /* ViewController_iPhone.xib */,
 				75F61451177F92900065DA29 /* ViewController_iPad.xib */,
+				75F614851780A2E10065DA29 /* SwitchViewController.h */,
+				75F614861780A2E10065DA29 /* SwitchViewController.m */,
+				75F614871780A2E10065DA29 /* SwitchViewController.xib */,
+				75F6148A1780A2FC0065DA29 /* HeadViewController.h */,
+				75F6148B1780A2FC0065DA29 /* HeadViewController.m */,
+				75F6148C1780A2FC0065DA29 /* HeadViewController.xib */,
 				75F6143A177F92900065DA29 /* Supporting Files */,
 			);
 			path = "Pocket Nurse 2";
@@ -133,6 +161,12 @@
 		75F6143A177F92900065DA29 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75F61483178098B70065DA29 /* Robin Egg Background.png */,
+				75F61473177F98F30065DA29 /* Background Man.png */,
+				75F6148117808B310065DA29 /* icon.png */,
+				75F6147D177F9FAE0065DA29 /* lg_yes.png */,
+				75F61475177F98F30065DA29 /* iPad Title.png */,
+				75F61476177F98F30065DA29 /* Title.png */,
 				75F6143B177F92900065DA29 /* Pocket Nurse 2-Info.plist */,
 				75F6143C177F92900065DA29 /* InfoPlist.strings */,
 				75F6143F177F92900065DA29 /* main.m */,
@@ -240,6 +274,14 @@
 				75F6144A177F92900065DA29 /* Default-568h@2x.png in Resources */,
 				75F61450177F92900065DA29 /* ViewController_iPhone.xib in Resources */,
 				75F61453177F92900065DA29 /* ViewController_iPad.xib in Resources */,
+				75F61477177F98F30065DA29 /* Background Man.png in Resources */,
+				75F61479177F98F30065DA29 /* iPad Title.png in Resources */,
+				75F6147A177F98F30065DA29 /* Title.png in Resources */,
+				75F6147E177F9FAE0065DA29 /* lg_yes.png in Resources */,
+				75F6148217808B310065DA29 /* icon.png in Resources */,
+				75F61484178098B70065DA29 /* Robin Egg Background.png in Resources */,
+				75F614891780A2E10065DA29 /* SwitchViewController.xib in Resources */,
+				75F6148E1780A2FC0065DA29 /* HeadViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +319,8 @@
 				75F61440177F92900065DA29 /* main.m in Sources */,
 				75F61444177F92900065DA29 /* AppDelegate.m in Sources */,
 				75F6144D177F92900065DA29 /* ViewController.m in Sources */,
+				75F614881780A2E10065DA29 /* SwitchViewController.m in Sources */,
+				75F6148D1780A2FC0065DA29 /* HeadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
